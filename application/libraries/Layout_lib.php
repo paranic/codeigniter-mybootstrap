@@ -20,7 +20,7 @@ class Layout_lib {
 
 			if (is_array($data))
 			{
-				array_push($data, ['body' => $body]);
+				$data['body'] = $body;
 			}
 			else if (is_object($data))
 			{
