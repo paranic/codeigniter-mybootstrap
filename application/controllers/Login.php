@@ -28,7 +28,7 @@ class Login extends CI_Controller {
 				else
 				{
 					$response['login_result'] = FALSE;
-					$response['message'] = 'λανθασμένα στοιχεία εισόδου';
+					$response['message'] = 'invalid login';
 					echo json_encode($response);
 					return ;
 				}
@@ -36,7 +36,7 @@ class Login extends CI_Controller {
 			else
 			{
 				$response['login_result'] = FALSE;
-				$response['message'] = 'συμπληρώστε ονομα χρήστη και κωδικό';
+				$response['message'] = 'missing username password';
 				echo json_encode($response);
 				return ;
 			}
