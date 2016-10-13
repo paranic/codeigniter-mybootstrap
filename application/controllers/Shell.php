@@ -28,6 +28,7 @@ class Shell extends CI_Controller {
 		exec('git pull');
 		exec('chown ' . getmyuid() . ':' . getmygid() . ' ' . FCPATH . '.. -R');
 		exec('chmod 0777 ' . APPPATH . 'cache');
+		exec('chmod 0777 ' . APPPATH . 'databases');
 		exec('chmod 0777 ' . APPPATH . 'logs');
 	}
 
