@@ -4,28 +4,28 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "72b952f55cf98237e95426235a9dffc7",
     "content-hash": "d3a6c833e96a7b361e249652f3af8cac",
     "packages": [
         {
             "name": "codeigniter/framework",
-            "version": "3.1.0",
+            "version": "3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bcit-ci/CodeIgniter.git",
-                "reference": "6ae943a4cea2434ccc582766724af21191e14fcd"
+                "reference": "873608df8be83420474e3cf9fc749a8ed12a6c09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/6ae943a4cea2434ccc582766724af21191e14fcd",
-                "reference": "6ae943a4cea2434ccc582766724af21191e14fcd",
+                "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/873608df8be83420474e3cf9fc749a8ed12a6c09",
+                "reference": "873608df8be83420474e3cf9fc749a8ed12a6c09",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
             "require-dev": {
-                "mikey179/vfsstream": "1.1.*"
+                "mikey179/vfsstream": "1.1.*",
+                "phpunit/phpunit": "4.* || 5.*"
             },
             "suggest": {
                 "paragonie/random_compat": "Provides better randomness in PHP 5.x"
@@ -37,7 +37,7 @@
             ],
             "description": "The CodeIgniter framework",
             "homepage": "https://codeigniter.com",
-            "time": "2016-07-26 17:36:48"
+            "time": "2017-03-20T15:51:08+00:00"
         }
     ],
     "packages-dev": [],
